@@ -92,7 +92,7 @@ class OpenAIFineTuningHandler(BaseCallbackHandler):
         The structure for each json line is as follows:
         {
           messages: [
-            { rol: "system", content: "Text"},
+            { role: "system", content: "Text"},
             { role: "user", content: "Text" },
           ]
         },
